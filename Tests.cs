@@ -4,19 +4,18 @@ using System.Collections.Generic;
 
 namespace Tests
 {
-    public class Tests
+  public class Tests
+  {
+    [Fact]
+    public void MathsWorks()
     {
-      [Fact]
-      public void MathsWorks()
-      {
-          Assert.Equal(4, 2+2);
-      }
-
-      [Fact]
-      public void HelloTest()
-      {
-          Assert.Equal("hello", new Echo().echo("hello"));
-      }
-
+      Assert.Equal(4, 2+2);
     }
+
+    [Fact]
+    public void HelloTest()
+    {
+      Assert.Equal("hello", new Echo().echo("hello"));
+    }
+  }
 }
