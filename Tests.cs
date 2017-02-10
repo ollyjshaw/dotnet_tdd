@@ -15,7 +15,9 @@ namespace Tests
     [Fact]
     public void HelloTest()
     {
-      Assert.Equal("hello", new Echo().echo("hello"));
+      var echoer = new Echo();
+      Assert.Equal("hello", echoer.echo("hello"));
+      Assert.Equal("world", echoer.echo("world"));
     }
   }
 }
