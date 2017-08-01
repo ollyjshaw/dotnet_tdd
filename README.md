@@ -1,4 +1,4 @@
-This is a simple project to use as a starting point for TTD in dotnet core.
+This is a simple project to use as a starting point for TDD in dotnet core.
 
 This project shows that the tools are all there and open.
 
