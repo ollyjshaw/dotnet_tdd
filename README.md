@@ -15,3 +15,6 @@ Then
 or
 
 `dotnet watch test`
+
+useful links
+https://www.hanselman.com/blog/TryingOutDotnetNewTemplateUpdatesAndCsprojWithVS2017.aspx
